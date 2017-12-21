@@ -1,0 +1,258 @@
+#html-body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    padding: 20px;
+    text-align: center;
+
+    -webkit-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
+}
+
+#form-container {
+    float: left;
+    margin: 65px 0 0 30px;
+}
+
+#calcul-form {
+    border: 1px solid lightgray;
+    width: 375px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(80, 80, 80);
+
+    -webkit-transition: -webkit-box-shadow 0.15s, -webkit-transform 0.25s;
+    -moz-transition: -moz-box-shadow 0.15s, -moz-transform 0.25s;
+    -o-transition: box-shadow 0.15s, -o-transform 0.25s;
+    transition: box-shadow 0.15s, transform 0.25s;
+
+    -webkit-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
+}
+
+#calcul-form:hover {
+    border-color: darkgray;
+    -webkit-box-shadow: 1px 1px 25px rgb(230, 230, 230),
+    1px -1px 25px rgb(230, 230, 230),
+    -1px 1px 25px rgb(230, 230, 230),
+    -1px -1px 25px rgb(230, 230, 230);
+    -moz-box-shadow: 1px 1px 25px rgb(230, 230, 230),
+    1px -1px 25px rgb(230, 230, 230),
+    -1px 1px 25px rgb(230, 230, 230),
+    -1px -1px 25px rgb(230, 230, 230);
+    box-shadow: 1px 1px 25px rgb(230, 230, 230),
+    1px -1px 25px rgb(230, 230, 230),
+    -1px 1px 25px rgb(230, 230, 230),
+    -1px -1px 25px rgb(230, 230, 230);
+
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+#form-title {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.input-form {
+    margin: 25px;
+    text-align: center;
+}
+
+.input-title {
+    margin: 8px;
+    font-size: 19px;
+}
+
+.input-number {
+    border: 1px solid rgb(220, 220, 220);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 0 8px 0 8px;
+    width: 190px;
+    height: 35px;
+    background-color: rgba(235, 237, 240, 0.8);
+    font-size: 16px;
+    color: black;
+
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.input-number:hover {
+    border-color: darkgray;
+}
+
+.input-number:focus {
+    border-color: darkgray;
+    background-color: white;
+
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+.input-form label {
+    margin-left: 19px;
+    margin-right: 19px;
+    border: 1px solid rgb(220, 220, 220);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 6px 13px 6px 13px;
+    background-color: rgba(225, 227, 230, 0.9);
+    font-size: 17px;
+    color: inherit;
+    cursor: pointer;
+}
+
+.input-form label:hover {
+    border-color: darkgray;
+
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.input-radio {
+    display: none;
+}
+
+#float, #imaginary {
+    display: none;
+}
+
+#submit-container {
+    text-align: center;
+}
+
+#submit-form {
+    margin-bottom: 20px;
+    border: 1px solid rgb(220, 220, 220);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 6px 13px 6px 13px;
+    background-color: rgba(225, 227, 230, 0.9);
+    font-size: 17px;
+    color: inherit;
+    cursor: pointer;
+
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+#submit-form:hover {
+    border-color: darkgray;
+}
+
+#help {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+
+    -webkit-transition: margin 3s;
+    -moz-transition: margin 3s;
+    -o-transition: margin 3s;
+    transition: margin 3s;
+
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+#img-fractale {
+    float: left;
+    margin: 10px 0 0 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 58%;
+    background-color: rgb(220, 220, 220);
+
+    -webkit-transition: -webkit-box-shadow 0.25s, -webkit-transform 0.25s;
+    -moz-transition: -moz-box-shadow 0.25s, -moz-transform 0.25s;
+    -o-transition: box-shadow 0.25s, -o-transform 0.25s;
+    transition: box-shadow 0.25s, transform 0.25s;
+
+    -webkit-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
+}
+
+#img-fractale:hover {
+    border-color: darkgray;
+    -webkit-box-shadow: 3px 3px 25px rgb(220, 220, 220),
+    3px -3px 25px rgb(220, 220, 220),
+    -3px 3px 25px rgb(220, 220, 220),
+    -3px -3px 25px rgb(220, 220, 220);
+    -moz-box-shadow: 3px 3px 25px rgb(220, 220, 220),
+    3px -3px 25px rgb(220, 220, 220),
+    -3px 3px 25px rgb(220, 220, 220),
+    -3px -3px 25px rgb(220, 220, 220);
+    box-shadow: 3px 3px 25px rgb(220, 220, 220),
+    3px -3px 25px rgb(220, 220, 220),
+    -3px 3px 25px rgb(220, 220, 220),
+    -3px -3px 25px rgb(220, 220, 220);
+
+    -webkit-transform: scale(1.015);
+    -moz-transform: scale(1.015);
+    -o-transform: scale(1.015);
+    transform: scale(1.015);
+}
+
+#fractale {
+    width: 100%;
+
+    -webkit-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    70% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    70% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    70% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
